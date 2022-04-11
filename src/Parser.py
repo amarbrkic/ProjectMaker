@@ -1,4 +1,4 @@
-def parse(*args):
+def parse(args):
     validArguments = ['-file', '-output']
     validFlags = ['--help', '--version', '--verbose',
                   '--quiet', '--debug']
@@ -7,6 +7,7 @@ def parse(*args):
 
 def validatingArguments(*args, validArguments, validFlags):
     pass
+
 
 def infoBox():
     pass
