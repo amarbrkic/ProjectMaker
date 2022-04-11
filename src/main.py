@@ -1,6 +1,7 @@
-from docopt import docopt
+import sys
 
+# Local file
+import Parser
 
 if __name__ == '__main__':
-    arguments = docopt(__doc__, version='Naval Fate 2.0')
-    print(arguments)
+    Parser.parse(sys.argv)
